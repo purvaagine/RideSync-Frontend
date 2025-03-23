@@ -1,0 +1,91 @@
+.rideInfo_container {
+  display: flex;
+  margin-top: 34px;
+  margin-bottom: 0px;
+  height: 15%;
+  margin-left: 30px;
+}
+.rideInfo_img {
+  width: 32px;
+  height: 32px;
+  margin-top: 15px;
+}
+.rideInfo_text {
+  margin-top: 0px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 35%;
+  margin-left: 20px;
+  /* 185px */
+}
+.rideInfo_font2 {
+  text-align: center;
+  margin-left: 25%;
+  width: 62px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.rideInfo_font3 {
+  color: #000;
+  /* text-align: center; */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 40px;
+}
+.rideInfo_profileIcon1 {
+  background-color: red;
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  margin-left: 19px;
+}
+.rideInfo_profileImage {
+  object-fit: cover;
+}
+.rideInfo_circle {
+  width: 26px;
+  height: 26px;
+  margin-top: 37px;
+  margin-left: -30px;
+  background-color: #318c59;
+  border-radius: 50%;
+}
+.rideInfo_wheelImage {
+  object-fit: cover;
+  margin: 4px;
+  width: 18px;
+  height: 18px;
+}
+
+.rideInfo_font5 {
+  color: hsl(0, 0%, 100%);
+  /* text-align: center; */
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 70px;
+}
+.rideInfo_tick {
+  margin: -10px 0px 0px -170px;
+  width: 27px;
+  height: 27px;
+}
+
+.rideInfoContainer {
+  padding: 20px;
+}

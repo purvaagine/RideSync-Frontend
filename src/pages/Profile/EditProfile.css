@@ -1,0 +1,103 @@
+.editProfile_Photo {
+  width: 100%;
+  /* height: 40%; */
+  height: auto;
+  display: block;
+  padding-top: 38px;
+  /* background-color: aliceblue; */
+  padding-bottom: 30px;
+}
+
+.eP_photoBg {
+  width: 123px; /* size=(size in px/screen_height)*100*/
+  height: 123px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  margin: 0 auto;
+  padding-top: 38px;
+  align-items: center;
+}
+.eP_camera {
+  width: 31px;
+  height: 33px;
+  margin: 0 auto;
+  align-items: center;
+}
+.eP_Font {
+  color: #000;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  margin: 2% 0% 1% 0%;
+}
+.eP_Name {
+  --color: #000;
+  --padding-start: 20px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  /* border:none ;*/
+  outline: none;
+  /* line-height: 20px; */
+  text-align: left;
+  --height: 10px;
+  --background: #e1e1e1;
+  --border-radius: 15px;
+}
+#eP_colspan {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#eP_height {
+  height: 75px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.eP_Name {
+  border: none;
+  outline: none;
+}
+.count {
+  grid-column-start: 2;
+  /* object-position: right; */
+  color: #000;
+  font-family: Poppins;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 10px;
+  text-align: right;
+  padding: auto;
+}
+.custom {
+  --background: #e1e1e1;
+  --border-radius: 15px;
+  --padding-bottom: 10px;
+  --padding-end: 10px;
+  --padding-start: 10px;
+  --padding-top: 20px;
+  --color: #000;
+  --padding-start: 20px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.eP_Button {
+  margin-top: 25px;
+  --border-radius: 30px;
+  --background: linear-gradient(180deg, #2e995c 0%, #30764f 100%);
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  height: 50px;
+  text-align: center;
+}

@@ -1,0 +1,68 @@
+.craftProfileContent::part(scroll) {
+  padding: 20px;
+}
+
+.back_button {
+  margin: auto;
+  width: auto;
+  height: 35px;
+  color: #000;
+  --background: #e1e1e1;
+  --border-radius: 15px;
+  --box-shadow: none;
+}
+.Name_font {
+  color: #000;
+  font-family: poppins;
+  line-height: 60px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: x-large;
+  text-align: center;
+  margin: auto;
+}
+.name_normalfont {
+  color: #000;
+  font-family: poppins;
+  line-height: normal;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  margin: auto;
+}
+
+.name_profileCircle {
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name_upload {
+  margin: auto;
+  width: auto;
+  height: 40px;
+  --box-shadow: none;
+  color: #000;
+  font-family: poppins;
+  line-height: normal;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  --background: #e6e6e6;
+  --border-radius: 15px;
+}
+
+.nameInput {
+  margin: auto;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #ededed;
+  border: none;
+  outline: none;
+  padding: 5px 25px;
+  width: 95%;
+}

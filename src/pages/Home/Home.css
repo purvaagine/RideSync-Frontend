@@ -1,0 +1,46 @@
+.menu .menuToggle {
+  padding: 0 20px 0 10px;
+  margin-top: 40px;
+}
+
+.menu .menuToggle ion-item:nth-child(1) {
+  margin-left: -5px;
+  margin-bottom: 15px;
+}
+
+.tabBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.tabBar ion-button {
+  width: 38%;
+  height: 52px;
+  --border-radius: 35px;
+  --box-shadow: none;
+  text-transform: capitalize;
+  color: rgb(34, 34, 34);
+  --background: none;
+}
+
+.selectedButton {
+  --background: rgba(0, 128, 0, 0.181) !important;
+}
+
+.menuProfile {
+  height: 47px;
+  width: 47px;
+  margin-right: 20px;
+}
+
+.tabBar ion-button ion-text {
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.selectedDiv {
+}

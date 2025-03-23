@@ -1,0 +1,25 @@
+.vehicleCard {
+  margin-top: 20px;
+}
+
+.vehicleNumberHolder {
+  display: flex;
+}
+
+.vehicleNumberHolder ion-text {
+  color: darkgray;
+  text-align: left;
+  /* margin: auto; */
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.vehicleFormList {
+  --background: #f5f5f5;
+  padding: 0;
+}
+
+.vehicleFormList ion-item {
+  background: transparent;
+  --background: #f5f5f5;
+}

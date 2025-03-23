@@ -1,0 +1,38 @@
+.profileIcon {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  margin-right: 10px;
+}
+
+.profileImage {
+  object-fit: cover;
+}
+
+.selectedDiv {
+  background-color: rgba(48, 138, 88, 0.23);
+}
+.unselectedDiv {
+  background-color: #f1f1f1;
+}
+
+.div {
+  height: 50px;
+  width: 140px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabButtons {
+  --color-selected: #4a785e;
+}
+.home_menuButton {
+  height: 50px;
+  width: 99%;
+  --background: #f1f1f1;
+  color: #000;
+}

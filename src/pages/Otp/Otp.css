@@ -1,0 +1,67 @@
+.otpContent::part(scroll) {
+  padding: 20px;
+}
+
+.otp_img {
+  margin: auto;
+  margin-top: 10%;
+  width: 70%;
+  margin-bottom: 20px;
+  /* background-color: #d7d7d7; */
+}
+.otpInputHolder {
+  width: 100%;
+  display: flex;
+}
+.otpInput {
+  margin: auto;
+  width: 90%;
+  height: 50px;
+  padding: 2px 30px;
+  margin: auto;
+  background-color: rgb(230, 230, 230);
+  outline: none;
+  border: none;
+  border-radius: 15px;
+}
+
+.otp_submit {
+  margin: auto;
+  width: 90%;
+  height: 50px;
+  color: #fff;
+  --background: linear-gradient(180deg, #2e995c 0%, #30764f 100%);
+  --border-radius: 15px;
+}
+.otp_back {
+  margin: auto;
+  width: auto;
+  height: 35px;
+  color: #000;
+  --background: #e1e1e1;
+  --border-radius: 15px;
+  --box-shadow: none;
+}
+.otp_resend {
+  margin: auto;
+  width: 30%;
+  height: 40px;
+  color: #000;
+  /* --background: lightgrey; */
+  --background: #e1e1e1;
+  --border-radius: 15px;
+  --box-shadow: none;
+}
+.otp_font {
+  color: #000;
+  font-family: poppins;
+  line-height: normal;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+}
+
+.resendHolder {
+  padding: 20px 0px;
+}

@@ -1,0 +1,26 @@
+.reactEasyCrop_CropArea {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.reactEasyCrop_Container {
+  display: block;
+  position: relative;
+}
+
+.imageCropperButtons {
+  display: flex;
+  padding: 10px 20px;
+}
+
+.imageCropperButtons ion-button {
+  flex: 1;
+  height: 50px;
+  --border-radius: 15px;
+}
+
+.imageCropperButtons ion-button:nth-child(1) {
+  margin-right: 20px;
+  --background: green;
+  --box-shadow: none;
+}

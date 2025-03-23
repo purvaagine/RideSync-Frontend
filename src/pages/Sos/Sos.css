@@ -1,0 +1,62 @@
+.sosContent::part(scroll) {
+  padding: 20px 10px;
+}
+
+.IonTitle {
+  text-align: center;
+  color: #000000;
+  font-family: poppins;
+  line-height: normal;
+  font-style: normal;
+  font-weight: 700;
+}
+.sos_bg {
+  --background-color: #f1f1f1;
+}
+
+.sos_display {
+  color: #000000;
+  font-family: poppins;
+  line-height: normal;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sos_title {
+  color: #000000;
+  font-family: poppins;
+  line-height: normal;
+  font-style: normal;
+  font-weight: 600;
+}
+.sos_edit {
+  color: #3e9e75;
+  font-family: poppins;
+  line-height: normal;
+  font-style: normal;
+  font-weight: 500;
+}
+.sos_message {
+  color: #000000;
+  background-color: white;
+  font-family: poppins;
+  line-height: normal;
+  font-style: normal;
+  font-weight: 400;
+}
+.sos_contact {
+  width: 100%;
+  --background: white;
+  color: #f79000;
+  font-family: poppins;
+  line-height: normal;
+  font-style: normal;
+  font-weight: 600;
+}
+.sos_alert {
+  position: fixed;
+  bottom: 20px; /* Adjust this value to change distance from the bottom */
+  width: 90%;
+  margin: 5% 0% 0% 5%;
+  --background: #f79000;
+}

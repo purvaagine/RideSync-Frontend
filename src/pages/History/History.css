@@ -1,0 +1,85 @@
+.history_location {
+  /* margin-left: 30px;
+  display: block;
+  width: 116px;
+  height: 54px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal; */
+}
+.history_img {
+  display: block;
+  margin: 1px 25px 35px 25px;
+  margin-top: 10px;
+}
+
+.history_details {
+  display: block;
+  height: 50px;
+  width: 90%;
+  margin: auto;
+  --border-radius: 20px;
+  --background: #171717;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 10px;
+}
+
+.historyInfoContainer {
+  justify-content: space-between;
+}
+
+.historyCard {
+  width: 90%;
+  background-color: #eee;
+  margin: auto;
+  margin-top: 22px;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.viewDetailsBtn {
+  --border-radius: 100px;
+  --background: #171717;
+  width: 100%;
+  font-weight: bold;
+  height: 45px;
+}
+
+.locationsContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0px;
+  justify-content: space-between;
+}
+
+.navigateIcon {
+  margin: auto;
+  margin-right: 20px;
+  width: 25px;
+}
+
+.cardLocation {
+  width: 80;
+  font-weight: 600;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.toDiv {
+  display: flex;
+  margin-top: 15px;
+}
+
+.fromDiv {
+  display: flex;
+}

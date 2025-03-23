@@ -1,0 +1,111 @@
+.createRideContent::part(scroll) {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchModal {
+  flex: 1;
+  display: flex;
+  padding: 20px 40px;
+  flex-direction: column;
+  height: 40%;
+  box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btnHolder {
+  margin: auto;
+  width: 100%;
+}
+
+.searchModal .balance {
+  display: flex;
+  height: 50px;
+  border-radius: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background-color: rgb(235, 235, 235);
+}
+
+.searchModal .charges {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchModal .charges .label {
+  font-size: 20px;
+}
+
+.searchModal .charges .amount {
+  font-weight: bold;
+  font-size: 25px;
+  color: green;
+}
+
+.balance .amount {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.searchModal .btnHolder ion-button {
+  --background: green;
+  --border-radius: 30px;
+  height: 50px;
+  width: 100%;
+}
+
+.infoWindow {
+  height: auto;
+  border-radius: 8px;
+  opacity: 90%;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 13px;
+  /* margin-bottom: 20px; */
+}
+
+.destinationInfoWindow {
+  background-color: green;
+  color: white;
+  width: 100px;
+}
+
+.sourceInfoWindow {
+  background-color: black;
+  color: white;
+  width: 50px;
+}
+
+.advancedMarker {
+  display: flex;
+  flex-direction: column;
+}
+
+.advancedMarker div {
+  margin: auto;
+}
+.advancedMarker div:nth-child(2) {
+  margin-top: 8px;
+}
+
+.outerCircle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #000;
+  display: flex;
+}
+
+.innerCircle {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: auto;
+}

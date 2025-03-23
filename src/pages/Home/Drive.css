@@ -1,0 +1,71 @@
+.driveCardIcon {
+  opacity: 35%;
+  height: 120px;
+}
+.createNowBtn {
+  margin: 16px 0px 0px 0px;
+  --border-radius: 20px;
+  --background: linear-gradient(180deg, #2e995c 0%, #30764f 100%);
+  color: #fff;
+  font-size: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
+.scheduleBtn {
+  margin: 16px 0px 0px 0px;
+  --border-radius: 20px;
+  --background: linear-gradient(180deg, #777 0%, #252525 100%);
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+#createNow {
+  margin-top: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(47, 141, 89, 0.48) 0.32%,
+    rgba(49, 154, 95, 0.14) 99.61%
+  );
+}
+#scheduleRide {
+  margin-top: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(58, 58, 58, 0.38) 0%,
+    rgba(58, 58, 58, 0.07) 100%
+  );
+}
+
+.driveCard {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
+  width: 90%;
+  background-color: #e1e1e1;
+  margin: auto;
+  padding: 30px 35px;
+  border-radius: 20px;
+}
+
+.driveCardTitle {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.driveCardSubTitle {
+  width: 85%;
+}
+
+.cardLeft {
+  width: 70%;
+}
+
+.cardRight {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}

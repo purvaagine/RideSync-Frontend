@@ -1,0 +1,442 @@
+.profile_font {
+  color: #000000;
+  font-family: poppins;
+  line-height: normal;
+  font-style: normal;
+  font-weight: 700;
+}
+.profile_fontHeader {
+  margin: auto;
+  margin-left: 13px;
+  margin-top: 13px;
+  font-size: 22px;
+  color: #000000;
+  font-family: poppins;
+  line-height: normal;
+  font-style: normal;
+  font-weight: 700;
+}
+.profile_box {
+  background-color: #f0f0f0;
+  border-radius: 15px;
+}
+.profile_profilePic {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 105px;
+  height: 105px;
+  background-color: lightgrey;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.profile_profileFont {
+  color: #fff;
+  font-weight: 500;
+}
+#profile_Name {
+  font-size: 20px;
+  font-weight: 500;
+  overflow-wrap: break-word;
+  overflow-y: hidden;
+}
+#verified {
+  margin-left: 27px;
+  margin-top: -12px;
+  font-size: 15px;
+}
+.profile_myVehicles {
+  margin: auto;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  width: 90%;
+  /* height: 119px; */
+  /* display: flex; */
+  /* height: fit-content; */
+}
+.profile_reviews {
+  margin: auto;
+  margin-top: 16px;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  width: 90%;
+  padding-bottom: 30px;
+  /* height: 248px; */
+}
+#profile_starVerify {
+  width: 21px;
+  height: 20px;
+  margin-top: 7px;
+}
+#profile_tick {
+  width: 11px;
+  height: 7px;
+  margin-left: 5px;
+  margin-top: -12px;
+}
+
+.profile_blur {
+  background: linear-gradient(180deg, #d9d9d9 0%, rgba(146, 137, 137, 0) 100%);
+}
+.profile_manageButton {
+  border-radius: 15px;
+  background: linear-gradient(180deg, #2e995c 0%, #30764f 100%);
+}
+.profile_users {
+  margin: auto;
+  margin-top: 35px;
+  width: 90%;
+  border-radius: 21px;
+  background-color: #fff;
+  .profile_font {
+    color: #000000;
+    font-family: poppins;
+    line-height: normal;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .profile_fontHeader {
+    margin: auto;
+    margin-left: 13px;
+    margin-top: 13px;
+    font-size: 22px;
+    color: #000000;
+    font-family: poppins;
+    line-height: normal;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .profile_box {
+    background-color: #f0f0f0;
+    border-radius: 15px;
+  }
+  .profile_background {
+    margin: auto;
+    width: 90%;
+    height: 171px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #32a564 25.12%, #185f37 93.35%);
+  }
+  .profile_ProfileCircle {
+    margin-left: 10px;
+    margin-top: -100px;
+    width: 125px;
+    height: 125px;
+    background-color: rgb(254, 254, 254);
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .profile_profilePic {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 105px;
+    height: 105px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+  }
+  .profile_profileFont {
+    color: #fff;
+    font-family: poppins;
+    line-height: normal;
+    font-style: normal;
+    font-weight: 700;
+  }
+  #profile_ProfileName {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  #profile_verified {
+    margin-left: 27px;
+    margin-top: -12px;
+    font-size: 15px;
+  }
+
+  .profile_myVehicles {
+    margin: auto;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    width: 90%;
+    /* height: 119px; */
+    /* display: flex; */
+    /* height: fit-content; */
+  }
+  .profile_reviews {
+    margin: auto;
+    margin-top: 16px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    width: 90%;
+    padding-bottom: 30px;
+    /* height: 248px; */
+  }
+  #profile_starVerify {
+    width: 21px;
+    height: 20px;
+    margin-top: 7px;
+  }
+  #profile_tick {
+    width: 11px;
+    height: 7px;
+    margin-left: 5px;
+    margin-top: -12px;
+  }
+
+  .profile_blur {
+    background: linear-gradient(
+      180deg,
+      #d9d9d9 0%,
+      rgba(146, 137, 137, 0) 100%
+    );
+  }
+  .profile_button {
+    border-radius: 15px;
+    background: linear-gradient(180deg, #2e995c 0%, #30764f 100%);
+  }
+  .profile_users {
+    margin: auto;
+    margin-top: 35px;
+    width: 90%;
+    border-radius: 21px;
+    background-color: #fff;
+    /* display: flex; */
+    padding: 10px;
+  }
+  .profile_userCircle {
+    margin: 10px;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    background-color: rgb(254, 254, 254);
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .profile_userPic {
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+  }
+
+  /* display: flex; */
+  padding: 10px;
+}
+
+.profile_userCircle {
+  margin: 10px;
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+  background-color: rgb(254, 254, 254);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile_userPic {
+  width: 100%;
+  height: 100%;
+  background-color: lightgrey;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  display: flex;
+}
+
+.profile_card {
+  padding: 19px 22px;
+}
+
+.profile_profileBanner {
+  margin: auto;
+  width: 90%;
+  height: 180px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  position: relative;
+  background: linear-gradient(180deg, #32a564 25.12%, #185f37 93.35%);
+  margin-bottom: 20px;
+  padding: 0px 20px;
+}
+.profile_profileCircle {
+  position: absolute;
+  bottom: -15px;
+  left: -14px;
+  width: 125px;
+  height: 125px;
+  background-color: rgb(254, 254, 254);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile_profileNameHolder {
+  position: absolute;
+  bottom: 18px;
+  left: 130px;
+  color: white;
+  width: 55%;
+}
+
+.profile_profileName {
+  font-size: 20px;
+  font-weight: 500;
+}
+.profile_verifiedBadgeHolder {
+  display: flex;
+  align-items: center;
+}
+
+.profile_card {
+  background-color: #f0f0f0;
+  border-radius: 15px;
+}
+
+.profile_cardTitle {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.profile_bioRatingsHolder {
+  padding: 0px 5%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.profile_bioCard {
+  width: 100%;
+}
+
+.profile_ratingsCard {
+  width: 35%;
+}
+
+.profile_ratings {
+  margin-top: 15px;
+}
+
+.profile_ratings span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.profile_vehiclesCard {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.profile_cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile_cardHeader .profile_manageBtn {
+  --border-radius: 30px;
+  --background: linear-gradient(180deg, #2e995c 0%, #30764f 100%);
+}
+
+.profile_vehicleHolder {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 10px 0px;
+}
+/* .profile_vehicleHolder ion-text {
+  flex: 1;
+} */
+
+.profile_vehicleHolder div {
+  display: flex;
+  align-items: center;
+}
+
+.profile_vehicleHolder div ion-text {
+  margin-left: 20px;
+}
+.profile_vehicleHolder div ion-badge {
+  margin-left: 10px;
+  --background: gray;
+  padding: 5px 10px;
+}
+
+.profile_seatingCapacityHolder {
+  display: flex;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  height: 30px;
+  width: 60px;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.profile_seatingCapacityHolder p {
+  margin-left: 10px;
+}
+
+.profile_reviewsCard {
+  width: 90%;
+  margin: auto;
+}
+
+.profile_reviewsCard .profile_cardHeader {
+  margin-bottom: 10px;
+}
+
+.profile_reviewsCard .profile_cardHeader ion-button {
+  color: #307c51;
+  font-weight: bold;
+  --border-radius: 30px;
+}
+
+.profile_reviewHolder {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+}
+
+.profile_reviewerIcon ion-img {
+  width: 70px;
+  height: 70px;
+  background-color: lightgrey;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.profile_reviewContentHolder {
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+}
+
+.profile_reviewContentHolder ion-text {
+  line-height: 0.75cm;
+}
+
+.profile_reviewContentHolder ion-text span {
+  font-weight: bold;
+}
+
+.profile_reviewerName {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.profileFooter {
+  padding: 20px 30px;
+  background-color: rgb(241, 241, 241);
+}
+
+.editProfileBtn {
+  --border-radius: 15px;
+  height: 50px;
+  --background: linear-gradient(180deg, #2e995c 0%, #30764f 100%);
+}

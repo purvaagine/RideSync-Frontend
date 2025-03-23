@@ -1,0 +1,272 @@
+.notScrollable::part(scroll) {
+  /* display: flex;
+  flex-direction: column; */
+  overflow: hidden;
+}
+
+.scrollable::part(scroll) {
+  overflow-y: scroll;
+}
+
+a[href^="http://maps.google.com/maps"]
+{
+  display: none !important;
+}
+
+.gmnoprint a,
+.gmnoprint span {
+  display: none;
+}
+.gmnoprint div {
+  background: none !important;
+}
+
+.detailsModal {
+  /* flex: 1; */
+  padding: 20px;
+}
+
+.detailsModal ion-skeleton-text {
+  border-radius: 20px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.detailsModal .groupTitle ion-skeleton-text {
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.detailsModal .groupTitle {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.driverCard {
+  background-color: rgb(241, 241, 241);
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.driverCard .content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
+}
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"]:checked + .content {
+  max-height: 800px;
+}
+
+.driverCardHeader .userDetails {
+  display: flex;
+  align-items: center;
+}
+
+.driverCardHeader .userDetails .userProfileHolder {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  object-fit: cover;
+  display: flex;
+}
+
+.driverCardHeader .userDetails .userProfileHolder ion-img {
+  object-fit: cover;
+}
+
+.driverCardHeader .userDetails .userName {
+  margin-left: 10px;
+  margin-right: 10px;
+  flex: 1;
+  overflow-x: scroll;
+}
+
+.driverCardHeader .userDetails .userName ion-text:nth-child(1) {
+  font-size: 18px;
+}
+
+.driverCardHeader .userDetails .userName ion-text:nth-child(3) {
+  color: rgb(140, 140, 140);
+}
+
+.driverCard .vehicleDetails {
+  display: flex;
+  align-items: center;
+}
+
+.vehicleIcon ion-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.vehicleDetails .vehicleName {
+  margin-left: 15px;
+  flex: 1;
+}
+
+.driverCard .vehicleDetails {
+  margin-left: 15px;
+}
+
+.vehicleDetails .vehicleName ion-text:nth-child(1) {
+  font-size: 18px;
+}
+.vehicleDetails .vehicleName ion-text:nth-child(3) {
+  color: rgb(140, 140, 140);
+  font-size: 15px;
+}
+
+.driverCard .dashedLine {
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 90%;
+  border: 1px dashed rgb(158, 158, 158);
+  opacity: 50%;
+}
+
+.driverCard .locationsHolder {
+  display: flex;
+  flex-direction: column;
+}
+
+.locationsHolder .source,
+.locationsHolder .destination {
+  display: flex;
+  align-items: center;
+}
+
+.source div,
+.destination div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60px;
+  text-align: center;
+}
+.destination {
+  margin-top: 20px;
+}
+
+.source ion-text,
+.destination ion-text {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  flex: 1;
+}
+
+.source div ion-icon,
+.destination div ion-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.source div ion-text,
+.destination div ion-text {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.requestAcceptHolder {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+.requestAcceptHolder ion-text {
+  text-align: center;
+  font-size: 15px;
+}
+
+.requestAcceptHolder .actionButtons {
+  margin-top: 10px;
+  display: flex;
+}
+
+.requestAcceptHolder .actionButtons ion-button {
+  height: 40px;
+  --border-radius: 15px;
+}
+
+.requestAcceptHolder .actionButtons ion-button:nth-child(1) {
+  flex: 1;
+  --background: rgb(39, 39, 39);
+}
+.requestAcceptHolder .actionButtons ion-button:nth-child(2) {
+  flex: 2;
+  margin-left: 10px;
+}
+
+.amountHolder {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.amountHolder ion-text:nth-child(2) {
+  color: green;
+}
+
+.completeRideHolder {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+.completeRideHolder ion-text {
+  text-align: center;
+  font-size: 15px;
+}
+
+.completeRideHolder .actionButtons {
+  margin-top: 10px;
+  display: flex;
+}
+
+.completeRideHolder .actionButtons input {
+  width: 65%;
+  outline: none;
+  border: none;
+  background-color: lightgray;
+  border-radius: 15px;
+  padding: 2px 20px;
+}
+
+.completeRideHolder .actionButtons ion-button {
+  margin-left: 15px;
+  width: 35%;
+  --border-radius: 15px;
+}
+
+.coriderPickupWindow {
+  width: 100px;
+  background-color: rgb(131, 131, 131);
+}
+
+.infowindow .profileHolder {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: none;
+  display: flex;
+  border: 3px solid green;
+}
+
+.infowindow .profileHolder ion-img {
+  object-fit: cover;
+}
