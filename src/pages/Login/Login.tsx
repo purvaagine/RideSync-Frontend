@@ -108,6 +108,8 @@ const Login: React.FC = () => {
   return (
     <IonPage id="ion-page">
       <IonContent>
+        {/* Google Translate Dropdown */}
+          <div id="google_translate_element" style={{ textAlign: "right", padding: "10px" }}></div>
         <IonList
           id="ion-list"
           lines="none"
