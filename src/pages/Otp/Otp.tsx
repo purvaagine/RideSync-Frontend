@@ -54,11 +54,11 @@ const Tab: React.FC = () => {
     let otp = localStorage.getItem("otp");
     const url = `https://api.twilio.com/2010-04-01/Accounts/${
       import.meta.env.VITE_TWILIO_URL
-    }`;
+    }/Messages.json`;
     const data = new URLSearchParams();
     data.append("To", `+91${phoneNumber}`);
-    data.append("From", "+15642442806");
-    data.append("Body", `Your verification code for CoDrive is: ${otp}`);
+    data.append("From", "+17432736030");
+    data.append("Body", `Your verification code for RideSync is: ${otp}`);
 
     const config = {
       headers: {
