@@ -104,10 +104,10 @@ const Tab: React.FC = () => {
     let msg = message + " message from +91 " + myNumber;
     const url = `https://api.twilio.com/2010-04-01/Accounts/${
       import.meta.env.VITE_TWILIO_URL
-    }`;
+    }/Messages.json`;
     const data = new URLSearchParams();
     data.append("To", `+91${contactNumber}`);
-    data.append("From", "+15642442806");
+    data.append("From", "+17432736030");
     data.append("Body", msg);
 
     const config = {
